@@ -217,20 +217,20 @@ The process below will show you how to acknowledge and dismiss pod beeps when th
 
 ### View Pod History
 
-This section shows you how to review your active pod history and filter by different action categories. The pod history tool allows you to view the actions and results committed to your currently active pod during its three days (72 - 80 hours) life.
+This section shows you how to review your active pod history. You can filter your history by different action categories. The pod history tool allows you to view all actions and results committed to your currently active pod during its three days (72 - 80 hours) life.
 
-This feature is helpful in verifying boluses, TBRs and basal commands that were sent to the pod. The remaining categories are useful for troubleshooting issues and determining the order of events that occurred leading up to a failure.
+This feature is helpful for verifying boluses, TBRs and basal commands that were sent to the pod. The remaining categories are useful for troubleshooting issues. You can also determine the order of events that lead up to a failure.
 
 *NOTE:* **Only the last command can be uncertain**. New commands *will not be sent* until the **last 'uncertain' command becomes 'confirmed' or 'denied'**. The way to 'fix' uncertain commands is to **'refresh pod status'**.
 
 1. Go to the **DASH** tab and press the **POD MGMT (1)** button to access the **Pod Management** menu and then press the **Pod history (2)** button to access the pod history screen.
 
-![Pod_history_1](../images/DASH_images/Pod_History/Pod_history_1.jpg) ![Pod_history_2](../images/DASH_images/Pod_History/Pod_history_2.jpg)
+![Pod_history_1](../images/DASH_images/Pod_History/Pod_history_1.png) ![Pod_history_2](../images/DASH_images/Pod_History/Pod_history_2.png)
 
 2. On the **Pod history** screen, the default category of **All (1)** is displayed, showing the **Date and Time (2)** of all pod **Actions (3)** and **Results (4)** in reverse chronological order. Use your phone’s **back button 2 times** to return to the **DASH** tab in the main AAPS interface.
+The history shows the actions of the pump and the total delivered dose of insulin up to the indicated date. So if a temporary basal rate is cancelled you can know how much insulin was delivered.
 
-
-![Pod_history_3](../images/DASH_images/Pod_History/Pod_history_3.jpg) ![Pod_history_4](../images/DASH_images/Pod_History/Pod_history_4.jpg)
+![Pod_history_3](../images/DASH_images/Pod_History/Pod_history_3.png) ![Pod_history_4](../images/DASH_images/Pod_History/Pod_history_4.png)
 
 (OmnipodDASH-dash-tab)=
 
